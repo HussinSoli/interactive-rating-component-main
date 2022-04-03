@@ -1,0 +1,23 @@
+.thank-body {
+  text-align: center;
+  padding: 20px;
+}
+.thank {
+  margin-bottom: 1.5rem;
+}
+
+.msg {
+  width: 45%;
+  background-color: rgba(37, 45, 55, 1);
+  color: rgb(255, 137, 53);
+  display: block;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.thank-info {
+  display: block;
+  margin: 0 auto;
+}

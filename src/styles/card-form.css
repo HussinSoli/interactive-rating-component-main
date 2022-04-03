@@ -1,0 +1,55 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputs-area {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.3rem 1.6rem;
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+input:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+button {
+  background-color: hsl(25, 97%, 53%);
+  padding: 1rem;
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+@media only screen and (max-width: 600px) {
+  input {
+    padding: 1rem 1.3rem;
+  }
+}
